@@ -1,0 +1,245 @@
+/* main */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(30, 28, 28);
+}
+a {
+    text-decoration: none;
+}
+
+/* nav */
+.heading{
+    background: fixed;
+    border-bottom: 1 px solid #585656;
+}
+
+.nav-c{
+    max-width: 1600px;
+    margin: 0 auto;
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.nav-i{
+display: flex;
+    gap: 24px;
+    font-size: 14px;
+    align-items: center;
+}
+.btn{
+    background: rgb(5, 194, 241);
+    color:whitesmoke;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.btn:hover{
+    background: rgb(231, 202, 14);
+    transition: 0.3s;
+}
+
+.hero{
+    background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('./assets/hero-bg.png');
+    background-size: 1600px 674px;
+    background-position: center;
+    display: flex;
+    padding: 200px 120px;
+    align-items: center;
+}
+.hero .hero-i{
+    max-width: 600px;
+    color: whitesmoke;
+    margin: auto;
+    text-align: center;
+}
+.badge{
+    background: rgb(5, 194, 241);
+    color: whitesmoke;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+.hero h1{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+  
+}
+.hero h1 span{
+    color: rgb(228, 199, 4);
+
+}
+
+.hero p{
+    font-size: 12px;
+    color: rgb(235, 235, 235);
+}
+.hero-a{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 24px;
+}
+.btn2{
+    border: 2px solid rgb(240, 209, 7);
+    color: rgb(235, 235, 235);
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.btn2:hover{
+    background: rgb(5, 194, 241);
+    transition: 0.3s;
+}
+
+.sec-2{
+    padding: 80px 20px;
+    max-width: 1200px;
+}
+.sec-2-head{
+
+    text-align: center;
+    gap: 40px;
+    justify-content: center;
+}
+.sec-2-head h2{
+    font-size: 28px;
+    gap: 50px;
+    
+}
+.sec-2-head p{
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    margin-top: 16px;
+}
+.sec-2-cards{
+max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+}
+.card{
+    background: rgb(250, 250, 250);
+    border-radius: 10px;
+        padding: 26px;
+        text-align: center;
+        box-shadow: 0 10px 22px rgba(0, 0, 0, 0.05);
+}
+.card-icon{
+    width: 48px;
+        height: 48px;
+        margin: 0 auto 16px;
+        border-radius: 50%;
+        background: #fee2e2;
+        color: #ef4444;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        }
+.card-icon h3{
+    font-size: 15px;
+    color: rgb(240, 209, 7);
+ 
+}
+.card-icon p{
+    font-size: 12px;
+  color: white;
+}
+
+.solution{
+    padding: 120px 120px;
+    background:rgb(5, 194, 241);
+}
+
+.solution-img{
+max-width: 1200px;
+align-items: center;
+gap: 30;
+border-radius: 12px;
+display: flex;
+margin: 0 auto;
+
+
+}
+
+.solution-info strong{
+  color:rgb(240, 209, 7);
+        font-weight: 500;
+    margin: 20px 0 40px 50px;
+}
+.solution-info h2 {
+    font-size: 28px;
+    margin: 20px;
+}
+
+.solution-info p {
+    font-size: 14px;
+    color: #475569;
+margin: 0px 0 40px 50px;
+}
+
+.solution-list {
+    list-style: none;
+}
+
+.solution-list li {
+    font-size: 13px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.last{
+    padding: 50px 15px;
+    background:rgb(5, 194, 241); 
+
+}
+
+.last-box{
+    max-width: 900px;
+        margin: 0 auto;
+        background:white;
+        text-align: center;
+        padding: 36px 12px;
+        border-radius: 10px;
+
+}
+.last-box h2{
+    font-size: 32;
+    margin-bottom: 10px;
+
+}
+.last-box p{
+    font-size: 12px;
+    margin-bottom: 18px;
+    color: #585656;
+}
+
+.footer{
+    background: rgb(240, 209, 7);
+    color: black;
+    padding: 36px 12px;
+}
+.footer-content{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer-content .link{
+    display: flex;
+    gap: 14px;
+}
