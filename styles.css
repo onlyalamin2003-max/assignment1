@@ -170,48 +170,89 @@ max-width: 1200px;
 }
 
 .solution{
-    padding: 120px 120px;
-    background:rgb(5, 194, 241);
+    padding: 120px 0;
+    background-color: rgb(5, 194, 241);
 }
 
-.solution-img{
-max-width: 1200px;
-align-items: center;
-gap: 30;
-border-radius: 12px;
-display: flex;
-margin: 0 auto;
-
+.solution-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 0 24px;
 
 }
 
-.solution-info strong{
-  color:rgb(240, 209, 7);
-        font-weight: 500;
-    margin: 20px 0 40px 50px;
+.solution-graphic{
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
-.solution-info h2 {
-    font-size: 28px;
-    margin: 20px;
+.solution-graphic img{
+    width: 600px;
+    height: 600px;
+    border-radius: 24px;
+    box-shadow: 0 20px black ;
+}
+.solution-info{
+flex: 1;
+max-width: 520px;
+
 }
 
-.solution-info p {
-    font-size: 14px;
-    color: #475569;
-margin: 0px 0 40px 50px;
+.label{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color:black;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-left: 18px;
+    text-shadow: 2px 4px 6px rgb(240, 209, 7);
 }
 
-.solution-list {
-    list-style: none;
+.solution-info h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: rgb(240, 209, 7);
+    margin-left: 18px;
+    text-shadow: 2px 4px 6px black;
 }
+.solution-info p{
+     font-size: 16px;
+     line-height: 1.6;
+     color:white;
+     margin-bottom: 32px;
+     margin-left: 18px;
+ }
 
-.solution-list li {
-    font-size: 13px;
-    margin-bottom: 8px;
-    padding-left: 20px;
-    position: relative;
-}
+ .solution-list {
+     list-style: none;
+    
+     display: flex;
+     flex-direction: column;
+     gap: 12px;
+    
+ }
 
+ .solution-list li {
+     display: flex;
+     align-items: flex-start;
+     gap: 10px;
+    
+     font-size: 15px;
+     color: #334155;
+ }
+ .solution-list img {
+     width: 18px;
+     height: 18px;
+     margin-top: 3px;
+     margin-left: 18px;
+     background-color: white;
+     mask-image: url(./assets/CheckCircle.png);
+ }
 .last{
     padding: 50px 15px;
     background:rgb(5, 194, 241); 
@@ -220,11 +261,11 @@ margin: 0px 0 40px 50px;
 
 .last-box{
     max-width: 900px;
-        margin: 0 auto;
-        background:white;
-        text-align: center;
-        padding: 36px 12px;
-        border-radius: 10px;
+    margin: 0 auto;
+    background:white;
+    text-align: center;
+    padding: 36px 12px;
+    border-radius: 10px;
 
 }
 .last-box h2{
@@ -255,6 +296,11 @@ margin: 0px 0 40px 50px;
 .footer-content .link{
     display: flex;
     gap: 14px;
+}
+.footer-content img{
+    mask-image: url(./assets/logo-footer.png);
+    background-color: black;
+    border-image: fill black;
 }
 
 .copy{
