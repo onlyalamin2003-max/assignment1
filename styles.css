@@ -34,6 +34,7 @@ display: flex;
     align-items: center;
     text-align: center;
 }
+/* button */
 .btn{
     background: rgb(5, 194, 241);
     color:whitesmoke;
@@ -46,6 +47,7 @@ display: flex;
     transition: 0.3s;
 }
 
+/* hero-section */
 .hero{
     background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('./assets/hero-bg.png');
     background-size: 1600px 674px;
@@ -89,6 +91,7 @@ display: flex;
     justify-content: center;
     margin-top: 24px;
 }
+/* 2nd button */
 .btn2{
     border: 2px solid rgb(240, 209, 7);
     color: rgb(235, 235, 235);
@@ -101,6 +104,7 @@ display: flex;
     transition: 0.3s;
 }
 
+/* section-2 */
 .sec-2{
     padding: 80px 20px;
     max-width: 1200px;
@@ -131,6 +135,7 @@ max-width: 1200px;
     gap: 20px;
 
 }
+/* card-section */
 .cards{
     background: rgb(250, 250, 250);
     border-radius: 10px;
@@ -169,6 +174,7 @@ max-width: 1200px;
     color: black;
 }
 
+/* 3rs content */
 .solution{
     padding: 120px 0;
     background-color: rgb(5, 194, 241);
@@ -253,6 +259,8 @@ max-width: 520px;
      background-color: white;
      mask-image: url(./assets/CheckCircle.png);
  }
+
+ /* last-section */
 .last{
     padding: 50px 15px;
     background:rgb(5, 194, 241); 
@@ -279,6 +287,7 @@ max-width: 520px;
     color: #585656;
 }
 
+/* footer section */
 .footer {
     background-color:white;
     color:black;
@@ -308,6 +317,8 @@ max-width: 520px;
     width: 139px;
     height: 60px;
 }
+
+/* copyright */
 
 .divider {
     max-width: 1200px;
